@@ -13,7 +13,7 @@ public class MainClass {
 
     Scanner read = new Scanner(System.in);
     private final String BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
-    private final String API_KEY = "&appid=8b1405bf83881d3b98249105062bb574";
+    private final String API_KEY = "******************";
     Request send = new Request();
     ConvertData converter = new ConvertData();
     public void showMenu(){
